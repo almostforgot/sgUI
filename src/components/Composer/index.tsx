@@ -253,7 +253,7 @@ export const Composer = React.forwardRef<ComposerHandle, ComposerProps>((props, 
         onChange={handleTextChange}
         onPaste={onImageSend ? handlePaste : undefined}
       />
-      {handlePaste && (
+      {(
         <SendConfirm file={pastedImage!} onCancel={handleImageCancel} onSend={handleImageSend} />
       )}
     </div>

@@ -1,7 +1,7 @@
 {
-  "name": "@fintech/sgui",
-  "version": "0.3.1",
-  "description": "The React library for Chatbot UI",
+  "name": "@sssound1/sgui",
+  "version": "0.1.0",
+  "description": "Custom chatbot UI library based on chatUI",
   "main": "lib/index.js",
   "module": "es/index.js",
   "browser": "dist/index.js",
@@ -97,14 +97,14 @@
     "chat",
     "chat-ui"
   ],
-  "homepage": "https://chatui.io/",
+  "homepage": "https://sg-ui.vercel.app/?path=/story/avatar--default",
   "bugs": {
-    "url": "https://github.com/alibaba/ChatUI/issues"
+    "url": "https://sg-ui.vercel.app/?path=/story/avatar--default"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alibaba/ChatUI"
+    "url": "https://github.com/sssound1/sgUI"
   },
-  "author": "akai <akainice@gmail.com>",
+  "author": "sg <sg@gmail.com>",
   "license": "MIT"
 }
