@@ -1,6 +1,6 @@
 {
   "name": "@sssound1/sgui",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Custom chatbot UI library based on chatUI",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -71,7 +71,7 @@
     "postcss": "^8.2.2",
     "react": "16.8.0",
     "react-dom": "16.8.0",
-    "rollup": "^2.35.1",
+    "rollup": "^2.45.1",
     "rollup-plugin-terser": "^7.0.2",
     "ts-jest": "^26.4.4",
     "typescript": "^4.1.3"
@@ -103,7 +103,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sssound1/sgUI"
+    "url": "git+https://github.com/sssound1/sgUI.git"
   },
   "author": "sg <sg@gmail.com>",
   "license": "MIT"
