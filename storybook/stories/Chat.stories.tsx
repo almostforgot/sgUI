@@ -33,15 +33,27 @@ export default {
 const initialMessages = [
   {
     type: 'text',
-    content: { text: '主人好，我是智能助理，你的贴心小助手~' },
-    user: { avatar: '//gw.alicdn.com/tfs/TB1DYHLwMHqK1RjSZFEXXcGMXXa-56-62.svg' },
+    content: { text: 'Hi~ Welcome to Senior Guradian!' },
+    user: { },
+    // user: { avatar: '//gw.alicdn.com/tfs/TB1DYHLwMHqK1RjSZFEXXcGMXXa-56-62.svg' },
   },
   {
-    type: 'image',
-    content: {
-      picUrl: '//img.alicdn.com/tfs/TB1p_nirYr1gK0jSZR0XXbP8XXa-300-300.png',
-    },
+    type: 'text',
+    content: { text: 'Our aim is to help the ager people find the best insurance cover at the best price' },
+    user: { },
+    // user: { avatar: '//gw.alicdn.com/tfs/TB1DYHLwMHqK1RjSZFEXXcGMXXa-56-62.svg' },
   },
+  {
+    type: 'text',
+    content: { text: 'I\'m Tim' },
+    user: { },
+  },
+  // {
+  //   type: 'image',
+  //   content: {
+  //     picUrl: '//img.alicdn.com/tfs/TB1p_nirYr1gK0jSZR0XXbP8XXa-300-300.png',
+  //   },
+  // },
 ];
 
 // 默认快捷短语，可选
@@ -90,7 +102,7 @@ export const Default = (args: ChatProps) => {
       setTimeout(() => {
         appendMsg({
           type: 'text',
-          content: { text: '亲，您遇到什么问题啦？请简要描述您的问题~' },
+          content: { text: 'Please enter your full name to get started!' },
         });
       }, 1000);
     }
@@ -136,7 +148,7 @@ export const Default = (args: ChatProps) => {
   return (
     <Chat
       {...args}
-      navbar={{ title: '智能助理' }}
+      navbar={{ title: 'SENIOR GUARDIAN' }}
       toolbar={[
         {
           type: 'photo',
